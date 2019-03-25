@@ -10,8 +10,8 @@ export default class Home extends Component {
             <View key='view' style={styles.container}>
                 <Text style={styles.hello}>Hello World</Text>
                 <Button
-                    title='Go Home'
-                    onPress={() => true}
+                    title='Open Drawer'
+                    onPress={() => this.props.navigation.openDrawer()}
                 />
             </View>,
             <ActionButton

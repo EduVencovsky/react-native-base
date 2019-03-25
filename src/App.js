@@ -1,11 +1,17 @@
 import React from 'react'
-import { createStackNavigator, createAppContainer } from 'react-navigation'
+import { createStackNavigator, createAppContainer, createDrawerNavigator } from 'react-navigation'
 import Home from './views/Home/Home'
+
+const HomeWithDrawer = createDrawerNavigator({
+    Home: {
+        screen: Home
+    }
+})
 
 const AppNavigator = createStackNavigator(
     {
         home: {
-            screen: Home,
+            screen: HomeWithDrawer,
         },
     },
     {
