@@ -2,6 +2,8 @@ module.exports = {
     "env": {
         "es6": true,
         "browser": true,
+        "jest": true,
+        "node": true,
         // "react-native/react-native": true,
     },
     "parserOptions": {
