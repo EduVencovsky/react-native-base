@@ -10,7 +10,7 @@ function arrayReducer(array, action) {
             updateByIndex[action.index] = action.value
             return updateByIndex
         default:
-            break
+            throw new Error()
     }
 }
 
