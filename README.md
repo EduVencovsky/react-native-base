@@ -429,3 +429,8 @@ Now you can check for linting using the command:
 > Just move the debugger to a separate window
 
 ## npm start -- --reset-cache
+
+## Could not connect to development server 
+
+> [Try This](https://facebook.github.io/react-native/docs/running-on-device#method-1-using-adb-reverse-recommended)
+> [Also check here](https://github.com/facebook/react-native/issues/15388)
